@@ -1,0 +1,496 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: aqua;
+  height: 30px;
+}
+
+.nav{
+  background-color: rgba(255, 179, 0, 0.819);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 150;
+  height: 52px;
+}
+
+.nav a{
+  color: white;
+  display: inline-block;
+  margin-top: 13px; 
+  text-decoration: none;
+  padding: 3px;
+}
+/* input bar */
+
+.headere{
+  float: right;
+  margin-right: 100px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+::placeholder{
+  color: white;
+}
+.srch{
+  padding: 8px 8px 8px 8px;
+  border-radius: 7px;
+  background: transparent;
+  border-right: none;
+  border: 2px solid rgb(255, 249, 249);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16.5px;
+  color: black;
+}
+
+button{
+  color: rgb(255, 255, 255);
+  padding-left: 0px;
+  padding: 9px 9px 9px 9px;
+  border: 2px solid white;
+  cursor: pointer;
+  background: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+.bg-image {
+  width: 100%;
+  z-index: 1;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+.header {
+margin-top: 210px;
+margin-bottom: 8px;
+color: white;
+font-size: 12.5vh;
+  
+}
+
+/* .head_back{
+  background-color: rgb(255, 216, 144, 10);
+} */
+
+.both_head{
+  z-index: 100;
+  position:absolute; 
+  display: inline-block;
+  margin: 0px 0px 200px 80px;
+  margin-left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 35px;
+}
+.btn{
+  margin-top: 46px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 88vh;
+  border-radius: 9px;
+  background-color: rgb(82, 73, 73);
+  border-style: none;
+  font-size: 20px;
+  padding: 20px 45px 20px 45px;
+}
+
+.btn:hover{
+  background-color:rgb(255, 185, 22);
+  cursor: pointer;
+}
+
+
+/* fashion div */
+.Fashion_place{
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* first row */
+.pictre{     
+  display:grid;
+  grid-template-columns: auto auto auto ;
+  width: 15px;
+  gap: 6px;
+  margin: 0px 0px;
+  padding: 5px;
+}
+
+/* first  */
+#pictre1{
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  padding: 36px 65px 35px 65px;
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#pictre1:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* #main{
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 60vh;
+  margin-bottom: 76px;
+  margin-top: 0px;
+} */
+
+h3{
+  margin: 0px 0px 100px 0px;
+  text-align: center;
+  font-size: 23px;
+  cursor: pointer;
+
+}
+#price{
+  color: rgb(250, 177, 8);
+  padding: 0px 4px 0px 0px;
+  cursor: pointer;
+}
+
+/* first  second */
+#Buy{
+  color: orange;
+  margin: 111px 50px 0px 0px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer;
+}
+
+#Buy:hover{
+  color: rgb(41, 40, 40);
+}
+
+/* first */
+#Buypp{
+  color: orange;
+  margin: 111px 20px 0px 0px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer;
+}
+
+/* first */
+#Buyppp{
+  color: orange;
+  margin: 104px 12px 0px 0px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer;
+}
+
+/* first */
+#pictre2{
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  padding: 36px 65px 20px 65px;
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#pictre2:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* first */
+#pictre3{
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  padding: 36px 57px 24px 57px;
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#pictre3:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* second */
+.pictre2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 15px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* second */
+#colum1{
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-top: 6px;
+  padding: 36px 65px 35px 65px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#colum1:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* second */
+#colum2{
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  background-color: rgb(255, 255, 255);
+  margin-left: 24px;
+  margin-top: 6px;
+  padding: 36px 67px 20px 67px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#colum2:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* second */
+#colum3{
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  background-color: rgb(255, 255, 255);
+  margin-left: 27px;
+  margin-top: 6px;
+  padding: 36px 74px 20px 74px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#colum3:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* second */
+#Buycc{ 
+  color: orange;
+  margin: 206px 12px 0px 0px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer;
+}
+
+/* second */
+#Buyccc{
+  color: orange;
+  margin: 137px 12px 0px 0px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer;
+}
+
+/* third */
+.pictre3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width:15px;
+  padding: 5px;
+  margin-top: 10px;
+  gap: 4px;
+}
+
+/* third */
+#colam1{ 
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-top: 6px;
+  padding: 36px 65px 35px 65px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#colam1:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* third */
+#colam2{
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  background-color: rgb(255, 255, 255);
+  margin-left: 24px;
+  margin-top: 6px;
+  padding: 36px 67px 20px 67px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+#colam2:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity: 1;
+}
+
+/* third */
+#colam3{ 
+  box-shadow: 0px 0px 29px rgb(193, 190, 190);
+  background-color: rgb(255, 255, 255);
+  margin-left: 25px;
+  margin-top: 6px;
+  padding: 36px 74px 20px 74px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#colam3:hover{
+  box-shadow: 0px 0px 30px rgb(102, 93, 93);
+  opacity:1;
+
+}
+
+/* third */
+#Buyl{  
+  color: orange;
+  margin: 30vh 12px 0px 0px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer;
+}
+
+/* third */
+
+#Buyll{  
+  color: orange;
+  margin: 34vh 12px 0px 0px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer; 
+}
+
+/* third */
+#Buylll{  
+  color: orange;
+  margin: 36vh 12px 0px 0px;
+  text-align:center;
+  padding: 0px 0px 0px 0px;
+  cursor:pointer; 
+}
+
+
+/* support div */
+.third{
+  background-color: rgb(77, 76, 76);
+  height: 23vh;
+  margin-top: 5px;
+  border-top-right-radius: 5vh;
+  display: block;
+}
+
+.control{
+  width: 26%;
+  margin: 55px 0px 0px 13vh;
+  height: 130px;
+  display: inline-block;
+}
+
+#lambo{
+  text-align: center;
+  display: block;
+  color: orange;
+  width: 70%;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+#Lorem{
+  color: rgb(182, 176, 176);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  padding-left: 0px;
+  margin-top: 2vh;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+#control2{
+  display: inline-block;
+  width: 32%;
+  height: 150px;
+
+  margin-left: 33px;
+}
+
+#ctrl2{
+  color: orange;
+  font-size: 23.5px;
+  margin-left: 0px;
+  cursor: pointer;
+  width: 70%;
+  display: block;
+  margin-bottom: 0px;
+}
+
+#control3{
+  display: inline-block;
+  width: 30%;
+  margin-left: 1vh;
+}
+
+#ctrl3{
+  color: orange;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  width: 60%;
+  font-family: CustomFont;
+  margin-bottom: 0px;
+}
+
+
+/* about us */
+#about {
+  grid-template-columns: auto auto;
+  gap: 10% ;
+  background-color: rgb(65, 64, 64);
+  display: grid;
+}
+#about-content{
+  display: inline-block;
+  width: 90%;
+}
+
+#about-img {
+  display: inline-block;
+  width: 50%;
+}
+
+#about-img img{
+  margin: 10vh 0vh 0vh 10vh;
+}
+
+#history{
+  text-align: right;
+  cursor: pointer;
+  width: 350px;
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  margin: 10vh 0 35px 0px;
+
+}
+
+#lorem{
+  color: rgb(255, 255, 255);
+  margin-left: 12px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
